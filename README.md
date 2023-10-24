@@ -2,7 +2,9 @@
 ### _Desafio do curso da Full Cycle_
 
 Clone o projeto e acesse a branch develop.
-
+```sh
+git checkout develop
+```
 Rode no seu terminal o comando:
 ```sh
 docker-compose up -d
