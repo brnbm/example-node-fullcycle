@@ -1,10 +1,11 @@
 # Nginx com Node.js 
 ### _Desafio do curso da Full Cycle_
 
-Clone o projeto e acesse a branch develop.
+Clone o projeto.
 ```sh
-git checkout develop
+git clone git@github.com:brnbm/example-node-fullcycle.git
 ```
+
 Rode no seu terminal o comando:
 ```sh
 docker-compose up -d
