@@ -31,6 +31,8 @@ services:
       dockerfile: Dockerfile
     entrypoint: dockerize -wait tcp://db:3306 -timeout 20s docker-entrypoint.sh node index.js
     container_name: node
+    volumes:
+      - ./node:/usr/src/app
     networks:
       - node-network
 
