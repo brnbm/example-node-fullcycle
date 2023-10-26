@@ -5,12 +5,6 @@ Clone o projeto.
 ```sh
 git clone git@github.com:brnbm/example-node-fullcycle.git
 ```
-Acesse a pasta node e instale o mysql e o express:
-```sh
-cd node
-npm install mysql -y
-npm install express -y
-```
 
 Rode o docker compose para subir os containers:
 ```sh
