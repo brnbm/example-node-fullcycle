@@ -10,5 +10,3 @@ RUN apk update --no-cache \
     && apk del wget
 
 EXPOSE 5000
-
-COPY index.js init.sh ./
